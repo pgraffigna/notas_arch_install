@@ -23,7 +23,7 @@ beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 terminal = "kitty"
 editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
-browser = "firefox"
+browser = "brave"
 burp = "burpsuite"
 config = "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"

@@ -55,7 +55,11 @@ awful.keyboard.append_global_keybindings({
         awful.key({modkey, "Shift"}, "f", function()
             awful.spawn.with_shell(browser)
         end,
-        {description = "open config panel", group = "launcher"}),
+        {description = "open brave", group = "launcher"}),
+        awful.key({modkey, "Shift"}, "v", function()
+            awful.spawn.with_shell(vscode)
+        end,
+        {description = "open vscode", group = "launcher"}),
         awful.key({modkey, "Shift"}, "c", function()
             awful.spawn.with_shell(config)
         end,
